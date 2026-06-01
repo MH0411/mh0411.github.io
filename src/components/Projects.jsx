@@ -18,11 +18,19 @@ import b4 from '../assets/fyp/4.png'
 import b5 from '../assets/fyp/5.png'
 
 import pp1 from '../assets/primeplus/1.jpg'
+import pp2 from '../assets/primeplus/2.png'
+import pp3 from '../assets/primeplus/3.png'
+import pp4 from '../assets/primeplus/4.png'
+import pp5 from '../assets/primeplus/5.jpg'
+import pp6 from '../assets/primeplus/6.png'
+import pp7 from '../assets/primeplus/7.png'
+import pp8 from '../assets/primeplus/8.png'
+import pp9 from '../assets/primeplus/9.png'
 
 import ss404 from '../assets/ss404.jpg'
 
 const SCREENSHOTS = {
-  'Prime Plus': [pp1],
+  'Prime Plus': [pp1, pp2, pp3, pp4, pp5, pp6, pp7, pp8, pp9],
   'Best Fuel Club': [bfc1],
   'Fleet Fuel Management System': [vcc1, vcc2, vcc3, vcc4],
   'Core Banking Omnichannel': [ss404],

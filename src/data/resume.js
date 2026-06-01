@@ -103,8 +103,8 @@ export const EDUCATION = [
 ]
 
 export const CONTACT = [
-  { icon: '✉️', label: 'z.mike0411@gmail.com', href: 'mailto:z.mike0411@gmail.com' },
-  { icon: '📞', label: '+65 8647 4045', href: 'tel:+6586474045' },
-  { icon: '🐙', label: 'github.com/mh0411', href: 'https://github.com/mh0411' },
-  { icon: '💼', label: 'linkedin.com/in/mh0411', href: 'https://linkedin.com/in/mh0411' },
+  { label: 'z.mike0411@gmail.com', href: 'mailto:z.mike0411@gmail.com' },
+  { label: '+65 8647 4045', href: 'tel:+6586474045' },
+  { label: 'github.com/mh0411', href: 'https://github.com/mh0411' },
+  { label: 'linkedin.com/in/mh0411', href: 'https://linkedin.com/in/mh0411' },
 ]
