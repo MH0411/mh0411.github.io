@@ -8,7 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -b main -d dist"
+    "deploy": "gh-pages -b main -d dist --dotfiles"
   },
   "dependencies": {
     "react": "^19.2.6",
