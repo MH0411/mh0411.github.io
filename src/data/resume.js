@@ -51,20 +51,20 @@ export const EXPERIENCES = [
 export const SKILLS = [
   { label: 'Languages & Frameworks', items: ['Ruby on Rails', 'React Native', 'TypeScript', 'JavaScript', 'Java', 'JSP', 'jQuery', 'Redux'] },
   { label: 'Databases & Queues', items: ['PostgreSQL', 'MySQL', 'Redis', 'Sidekiq'] },
-  { label: 'Cloud & DevOps', items: ['AWS (EC2, RDS, S3, ElastiCache, VPC)', 'Docker', 'CircleCI', 'Nginx', 'Cloudflare'] },
-  { label: 'Tools', items: ['Git', 'RSpec', 'Postman', 'Firebase', 'Fastlane', 'Capistrano', 'Jenkins', 'Jira', 'Amazon Q Developer'] },
+  { label: 'Cloud & DevOps', items: ['AWS (EC2, RDS, S3, ElastiCache, VPC etc)', 'Docker', 'CircleCI', 'Nginx', 'Cloudflare'] },
+  { label: 'Tools', items: ['Git', 'RSpec', 'Postman', 'Firebase', 'Fastlane', 'Capistrano', 'Jenkins', 'Jira', 'Amazon Q Developer', 'Copilot', 'Codex'] },
 ]
 
 export const PROJECTS = [
   {
     title: 'Prime Plus',
     desc: 'Prime Plus is a centralized fleet fuel management platform for the Prime Group, revamping Best Fuel Club to manage Shell fuel cards across multiple fleets with a decoupled architecture from the legacy system.It supports driver onboarding, card ordering via APIs, PayNow/eGIRO top-ups with bank callbacks, real-time balance tracking, and role-based access per fleet.',
-    tags: ['Ruby on Rails', 'React Native', 'PostgreSQL', 'Redis', 'AWS', 'CircleCI', 'Payment'],
+    tags: ['Ruby on Rails', 'React Native', 'PostgreSQL', 'Redis', 'Redux', 'AWS', 'CircleCI', 'Payment'],
   },
   {
     title: 'Best Fuel Club',
     desc: 'A fuel loyalty and rewards platform, enabling driver onboarding, vouchers, referrals, gamification, location services, personalized promotions, and tier-based member engagement. Includes a comprehensive admin portal for content management, campaign administration, push notifications, and fuel usage analytics.',
-    tags: ['Ruby on Rails', 'React Native', 'PostgreSQL', 'Redis', 'AWS', 'CircleCI'],
+    tags: ['Ruby on Rails', 'React Native', 'PostgreSQL', 'Redis', 'Redux', 'AWS', 'CircleCI'],
   },
   {
     title: 'Fleet Fuel Management System',
@@ -87,6 +87,8 @@ export const PROJECTS = [
     tags: ['Java', 'mySQL'],
   },
 ]
+
+export const SPOKEN_LANGUAGES = ['English', 'Mandarin (中文)', 'Malay', 'Cantonese', 'Hokkien']
 
 export const NAV_LINKS = ['About', 'Experience', 'Skills', 'Projects', 'Contact']
 

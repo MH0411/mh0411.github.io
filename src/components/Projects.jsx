@@ -27,13 +27,21 @@ import pp7 from '../assets/primeplus/7.png'
 import pp8 from '../assets/primeplus/8.png'
 import pp9 from '../assets/primeplus/9.png'
 
+import sl1 from '../assets/silverlake/1.png'
+import sl2 from '../assets/silverlake/2.png'
+import sl3 from '../assets/silverlake/3.png'
+import sl4 from '../assets/silverlake/4.png'
+import sl5 from '../assets/silverlake/5.png'
+import sl6 from '../assets/silverlake/6.png'
+import sl7 from '../assets/silverlake/7.png'
+
 import ss404 from '../assets/ss404.jpg'
 
 const SCREENSHOTS = {
   'Prime Plus': [pp1, pp2, pp3, pp4, pp5, pp6, pp7, pp8, pp9],
   'Best Fuel Club': [bfc1],
   'Fleet Fuel Management System': [vcc1, vcc2, vcc3, vcc4],
-  'Core Banking Omnichannel': [ss404],
+  'Core Banking Omnichannel': [sl1, sl2, sl3, sl4, sl5, sl6, sl7],
   'eBilling System': [ss404],
   'Billing System': [b0, b1, b2, b3, b4, b5],
 }

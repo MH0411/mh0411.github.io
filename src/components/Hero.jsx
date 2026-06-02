@@ -13,7 +13,7 @@ export default function Hero() {
           I work across DevOps, CI/CD, and third-party integrations, taking features from idea to production.
           <br/>
           <br/>
-          Based in Singapore 🇸🇬 · AWS Certified Developer
+          Based in Singapore 🇸🇬 · Malaysian 🇲🇾 · AWS Certified Developer
         </p>
         <div className="hero-links">
           <a href="mailto:z.mike0411@gmail.com" className="btn-primary">Get in Touch</a>

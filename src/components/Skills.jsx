@@ -1,4 +1,4 @@
-import { SKILLS } from '../data/resume'
+import { SKILLS, SPOKEN_LANGUAGES } from '../data/resume'
 import '../styles/components/skills.css'
 
 export default function Skills() {
@@ -14,6 +14,12 @@ export default function Skills() {
             </div>
           </div>
         ))}
+        <div className="skill-group">
+          <h4>Spoken Languages</h4>
+          <div className="tags">
+            {SPOKEN_LANGUAGES.map((lang) => <span className="tag" key={lang}>{lang}</span>)}
+          </div>
+        </div>
       </div>
       <div className="badges">
         <div className="cert-badge">🏅 AWS Certified Developer – Associate (Dec 2023 – Dec 2026)</div>
