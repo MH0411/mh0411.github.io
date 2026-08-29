@@ -21,10 +21,6 @@ export default function Skills() {
           </div>
         </div>
       </div>
-      <div className="badges">
-        <div className="cert-badge">🏅 AWS Certified Developer – Associate (Dec 2023 – Dec 2026)</div>
-        <div className="cert-badge">🎓 Bachelor of Computer Science (Software Development) with Honors · UTeM (2013 – 2017)</div>
-      </div>
     </section>
   )
 }

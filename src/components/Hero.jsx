@@ -12,7 +12,7 @@ export default function Hero() {
           I build scalable web and mobile products that transform ideas into real-world solutions. My work spans backend development, mobile applications, cloud infrastructure, DevOps, CI/CD automation, and complex third-party integrations. I enjoy solving challenging technical problems, improving system reliability, and delivering seamless user experiences from concept to production.
           <br/>
           <br/>
-          Based in Singapore 🇸🇬 · Malaysian 🇲🇾 · AWS Certified Developer
+          Based in Singapore 🇸🇬 · Malaysian 🇲🇾
         </p>
         <div className="hero-links">
           <a href="mailto:z.mike0411@gmail.com" className="btn-primary">Get in Touch</a>
