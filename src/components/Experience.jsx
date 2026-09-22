@@ -20,6 +20,14 @@ export default function Experience() {
               <ul>
                 {exp.points.map((p, i) => <li key={i}>{p}</li>)}
               </ul>
+              {exp.projects?.map((proj) => (
+                <div key={proj.title} className="timeline-subproject">
+                  <h4>{proj.title}</h4>
+                  <ul>
+                    {proj.points.map((p, i) => <li key={i}>{p}</li>)}
+                  </ul>
+                </div>
+              ))}
             </div>
           </div>
         ))}
